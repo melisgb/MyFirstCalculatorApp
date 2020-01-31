@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/toSliderActButton"
+        android:layout_width="170dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableLeft="@drawable/slidercontrol"
+        android:text="@string/sliderActButton"
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.Button"/>
+
+    <Button
+        android:id="@+id/toCalcActButton"
+        android:layout_width="170dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toSliderActButton"
+        android:drawableLeft="@drawable/calculator"
+        android:drawablePadding="10dp"
+        android:text="@string/calcActButton"
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.Button"/>
+
+    <Button
+        android:id="@+id/toAdditionActButton"
+        android:layout_width="170dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toCalcActButton"
+        android:drawableLeft="@drawable/add_icon"
+        android:drawablePadding="10dp"
+        android:text="@string/addingActButton"
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.Button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
