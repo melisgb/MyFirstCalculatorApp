@@ -6,4 +6,8 @@
 <!--    added from tutorial Calculator -->
     <color name="actionButton">#F57C00</color>
     <color name="numberButton">#455A64</color>
+
+<!--    colors for slider temperature-->
+    <color name="orange">#FF7B00</color>
+    <color name="lightBlue">#1E90FF</color>
 </resources>
