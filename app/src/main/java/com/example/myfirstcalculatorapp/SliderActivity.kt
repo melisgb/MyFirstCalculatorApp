@@ -32,7 +32,7 @@ class SliderActivity : AppCompatActivity() {
                 }
                 else progressFarTextView.setTextColor(ContextCompat.getColor(this@SliderActivity, R.color.lightBlue))
 
-                // an upward movement with -1   ||    animstep
+                // an upward movement with -1   ||    animstep | distance that the progressC will be translated.
                 val translationDistance = (initialTextViewTranslationY + progress * resources.getDimension(R.dimen.text_anim_step) * -1)
 
                 progressCTextView.animate().translationY(translationDistance)

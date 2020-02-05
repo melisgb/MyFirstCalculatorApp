@@ -35,8 +35,15 @@ class AdditionActivity : AppCompatActivity() {
             //            val secondN : Int
             val firstN : String = firstNumEditText.text.toString()
             val secondN : String = secondNumEditText.text.toString()
-            val result : Int = firstN.toInt() + secondN.toInt()
-            resultTextView.setText(result.toString()+"")
+
+            if(firstNumEditText.text.length > 0 && secondNumEditText.text.length > 0 )
+            {
+                val result : Int = firstN.toInt() + secondN.toInt()
+                resultTextView.setText(result.toString()+"")
+            }
+            else {
+                resultTextView.setText("-")
+            }
 //            Toast.makeText(this, firstN, Toast.LENGTH_SHORT).show()
 
         }

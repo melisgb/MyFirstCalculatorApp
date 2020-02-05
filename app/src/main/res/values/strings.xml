@@ -7,9 +7,11 @@
 
     <!-- Main activity Buttons -->
     <string name="calcActButton">Calculator</string>
-    <string name="sliderActButton">Slider</string>
-    <string name="addingActButton">Adding</string>
+    <string name="sliderActButton">Temp Slider</string>
+    <string name="addingActButton">Adding up</string>
 
+    <!-- Adding up -->
+    <string name="addingMessage">Enter two numbers to sum:</string>
 
     <!-- Calculator: number and operators-->
     <string name="zero">0</string>
